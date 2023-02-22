@@ -1,0 +1,154 @@
+#navbar{
+   width: 100%;
+   left: 100%;
+}
+        
+title{
+    background: black;
+}
+
+li{
+    list-style-type:none;
+    display: inline-block;
+    font-size: 1em;
+    padding: 10px;
+    font-weight: bold;
+    color: var(--main-white);
+}
+
+    .h1{ /* poner titulo centrado */
+    position: absolute;
+    width: 900%;
+    left: 40%;
+    justify-content: center;
+    top: 10%;
+}
+
+.p{ /* ajustar texto del index.html debajo del titulo */
+    margin-top: 10%;
+}
+
+.h2{ /* para poner el titulo centrado y un poco más abajo */
+    position: absolute;
+    width: 900%;
+    left: 40%;
+    justify-content: center;
+    top: 0%;
+}
+    
+.texto{
+    margin-top: 32%;
+}
+
+.fondo{ /* fondo de la página trabajo */
+    background-image: url('fotos/R.jfif');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.papel{ /* fondo de la página trabajo sobre */
+    background-image: url('fotos/papel.jfif');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.flores{ /* fondo de la página contacto */
+    background-image: url('fotos/flores.png');
+    background-repeat: no-repeat;
+    background-size: cover;  
+}
+
+.principal{ /* fondo de la página index */
+    background-image: url('fotos/principal.jfif');
+    background-size: cover; 
+}
+
+hr{
+    width: auto;
+    height: auto;
+    background-color: #fff;
+    margin-right: auto;
+    margin-left: auto
+}
+
+*{box-sizing:border-box;}
+
+.container{
+	width:95%;
+	max-width:900px;
+	padding:32px 64px;
+	margin:auto;
+}
+
+.social{
+	/*las imágenes usadas tienen width de 48px*/
+	width: 48px;
+	position:fixed;
+	top:50px;
+	right:0;
+}
+
+	/* Extra centrado vertical*/
+
+.social{
+	/*border:1px solid #000;*/
+	top:50%;
+	height:205px;
+	/*para poner height 192 deberíamos haber indicado en el reset de estilos font-size:0;*/
+	margin-top:-100px;
+}
+
+.facebook{
+	/*las imágenes usadas tienen width de 48px*/
+	width: 48px;
+	position:fixed;
+	top: 50px;
+	right:0;
+}
+
+.youtube{
+	/*las imágenes usadas tienen width de 48px*/
+	width: 48px;
+	position:fixed;
+	top:150px;
+	right:0;
+}
+
+.instagram{
+	/*las imágenes usadas tienen width de 48px*/
+	width: 48px;
+	position:fixed;
+	top:200px;
+	right:0;
+}
+
+.twitter{
+	/*las imágenes usadas tienen width de 48px*/
+	width: 48px;
+	position:fixed;
+	top:100px;
+	right:0;
+}
+
+.Github {
+	/*las imágenes usadas tienen width de 48px*/
+	width: 48px;
+	position:fixed;
+	top: 250px;
+	right:0;
+}
+
+.blog{
+    background-color: rgb(240, 201, 235);
+}
+
+.sobremi{
+    background-color: #ECF0F1;
+}
+
+.contendor {
+    display: flex;
+    justify-content: left;
+    width: 250px;
+    height: 50px;
+}
